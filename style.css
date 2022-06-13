@@ -1,0 +1,123 @@
+/* huziiiii */
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  body {
+      text-align: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100vh;
+      overflow:hidden;
+      padding: 10px;
+      background: linear-gradient(to bottom, #2159c1cb 0%, #a40800be 100%);
+  }
+  #list{
+      list-style: none;
+  }
+  .header{
+      margin-top: 150px;
+      margin-right: 160px;
+  }
+  .wrapper{
+      background: rgba(255, 255, 255, 0.705);
+      max-width: 400px;
+      width: 100%;
+      margin: 120px auto;
+      padding: 25px;
+      border-radius: 5px;
+      box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+    }
+    .wrapper header{
+      font-size: 30px;
+      font-weight: 600;
+    }
+    .wrapper .inputField{
+      margin: 20px 0;
+      width: 100%;
+      display: flex;
+      height: 45px;
+    }
+    .inputField input{
+      width: 85%;
+      height: 100%;
+      outline: none;
+      border-radius: 3px;
+      border: 1px solid #ccc;
+      font-size: 17px;
+      padding-left: 15px;
+      transition: all 0.3s ease;
+    }
+    .inputField input:focus{
+      border-color:black;
+    }
+    .inputField button{
+      width: 40px;
+      height: 90%;
+      border: none;
+      border-radius: 5px;
+      color: #fff;
+      margin-left: 5px;
+      font-size: 21px;
+      outline: none;
+      background: #000eccaf;
+  }
+  .wrapper #list{
+    max-height: 250px;
+    overflow-y: auto;
+    position: relative;
+  }
+  #list li{
+      list-style:none;
+      height:45px;
+      line-height: 45px;
+      position: relative;
+      background-color: #f2f2f2ad;
+      border-radius: 3px;
+      margin-bottom: 8px;
+      padding: 0 15px;
+      font-size: 22px;
+  }
+  .dltbtn{
+    position: absolute;
+  right: 0;
+  top: 15px;
+  margin-right: 20px;
+  font-size: 18px;
+  border-radius: 3px;
+  }
+  .editbtn{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 3px;
+    right: 0;
+    bottom: 8px;
+    margin-right: 60px;
+  }
+  #list li span{
+      position: absolute;
+      right: 0px;
+      width: 45px;
+      color: #fff;
+      text-align: center;
+      cursor: pointer;
+      background-color: red;
+  }
+  .footer button{
+      width: 40px;
+      height: 40px;
+      border: none;
+      border-radius: 5px;
+      color: #fff;
+      margin-left: 5px;
+      font-size: 21px;
+      outline: none;
+      background: rgba(255, 0, 0, 0.795);
+  }
+  .wrapper #list{
+      overflow-y: auto;
+  }
